@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f0f4f7, #d9e8f5);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h3 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+#recordForm {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"],
+select,
+button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+#records {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#records p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 4px solid #4a90e2;
+}
+
+@media (max-width: 768px) {
+
+    #recordForm,
+    #records {
+        padding: 15px;
+        width: 90%;
+    }
+
+    input[type="text"],
+    select,
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+}
